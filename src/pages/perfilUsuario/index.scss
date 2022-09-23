@@ -1,0 +1,34 @@
+.wrapper {
+    max-width: 44rem;
+    margin: auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+} 
+.body{
+    display: flex;
+    flex-direction: row;
+    width: 43.75rem;
+   
+}
+.leftBody{
+    display:flex;
+    align-items: center;
+    margin-right: 1.875rem;
+    flex: 1;
+}
+
+.rightBody{
+    flex: 6;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;   
+    margin: 50px;
+    width: 100%;
+       
+}
